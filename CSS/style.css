@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+main {
+  background-color: rgb(0, 0, 0);
+}
+
+.header-container {
+  background-color: rgb(0, 0, 0);
+  padding: 16px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.menu-item {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+button {
+  background-color: red;
+  border: 0;
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+}
+.banner-container {
+  margin: 0;
+}
+img {
+  width: 100%;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 16px;
+}
+
+.anime-card {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  width: 100%;
+  text-align: center;
+  padding: 16px;
+  margin: 16px;
+  background-color: rgba(34, 43, 50, 0.811);
+  border-radius: 8px;
+  color: white;
+}
+.contactus-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 24px;
+}
+
+label {
+  display: block;
+  margin-left: 12px;
+  color: white;
+}
+input,
+textarea {
+  width: 260px;
+  padding: 12px;
+  margin: 8px;
+  border: 1px solid white;
+  border-radius: 8px;
+}
+
+.footer-section {
+  background-image: url("../image/footeer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  color: white;
+  padding-top: 150px;
+}
